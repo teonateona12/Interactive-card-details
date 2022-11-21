@@ -13,9 +13,9 @@ const ThankYou = ({
   const btnContinue = () => {
     setName("JANE APPLESEED");
     setCardNumber("0000 0000 0000 0000");
-    setMonth(0);
-    setCvc(0);
-    setDay(0o0);
+    setMonth("00");
+    setCvc("000");
+    setDay("00");
     setIfFormIscorrect(true);
   };
   return (

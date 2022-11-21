@@ -10,9 +10,9 @@ export interface CardInputsProps {
 
 export interface ThankYouProps {
   setName: (value: string) => void;
-  setMonth: (value: number) => void;
-  setCvc: (value: number) => void;
+  setMonth: (value: number | string) => void;
+  setCvc: (value: number | string) => void;
   setCardNumber: (value: string | number) => void;
-  setDay: (value: number) => void;
+  setDay: (value: number | string) => void;
   setIfFormIscorrect: (value: boolean) => void;
 }
