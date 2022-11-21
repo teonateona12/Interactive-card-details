@@ -1,14 +1,12 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  font-family: "Space Grotesk", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
 
@@ -16,24 +14,24 @@ code {
 @tailwind components;
 @tailwind utilities;
 
-.inp{
-  border-color: #DFDEE0;
-  border-width: 5px;
+.inp {
+  border-color: #dfdee0;
+  border-width: 3px;
   width: 100%;
 }
-.inp-date{
-  border-color: #DFDEE0;
-  border-width: 5px;
+.inp-date {
+  border-color: #dfdee0;
+  border-width: 3px;
   width: 90%;
 }
-.inp-cvc{
-  border-color: #DFDEE0;
-  border-width: 5px;
+.inp-cvc {
+  border-color: #dfdee0;
+  border-width: 3px;
   width: 100%;
 }
-.btn{
-  background-color: #21092F;;
+.btn {
+  background-color: #21092f;
 }
-.btnCont{
-  background-color: #21092F;
+.btnCont {
+  background-color: #21092f;
 }

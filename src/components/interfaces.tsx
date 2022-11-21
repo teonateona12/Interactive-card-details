@@ -1,23 +1,18 @@
 export interface CardInputsProps {
-  cvc: string;
-  setCvc: (value: string) => void;
-  cardNumber: string;
-  setCardNumber: (value: string) => void;
-  name: string;
+  setCvc: (value: number) => void;
+  setCardNumber: (value: string | number) => void;
   setName: (value: string) => void;
-  day: string;
-  setDay: (value: string) => void;
-  month: string;
-  setMonth: (value: string) => void;
-  ifFormIscorrect: boolean;
+  setDay: (value: number) => void;
+  setMonth: (value: number) => void;
   setIfFormIscorrect: (value: boolean) => void;
+  ifFormIscorrect: boolean
 }
 
-export interface ThankYouProps{
+export interface ThankYouProps {
   setName: (value: string) => void;
-  setMonth:(value: string) => void;
-  setCvc:(value: string) => void;
-  setCardNumber:(value: string) => void;
-  setDay:(value: string) => void;
-  setIfFormIscorrect:(value: boolean) => void;
+  setMonth: (value: number) => void;
+  setCvc: (value: number) => void;
+  setCardNumber: (value: string | number) => void;
+  setDay: (value: number) => void;
+  setIfFormIscorrect: (value: boolean) => void;
 }
