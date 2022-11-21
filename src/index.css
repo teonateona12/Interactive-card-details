@@ -11,3 +11,29 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.inp{
+  border-color: #DFDEE0;
+  border-width: 5px;
+  width: 100%;
+}
+.inp-date{
+  border-color: #DFDEE0;
+  border-width: 5px;
+  width: 45%;
+}
+.inp-cvc{
+  border-color: #DFDEE0;
+  border-width: 5px;
+  width: 100%;
+}
+.btn{
+  background-color: #21092F;;
+}
+.btnCont{
+  background-color: #21092F;
+}
