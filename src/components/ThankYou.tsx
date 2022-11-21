@@ -21,7 +21,7 @@ const ThankYou = ({
   return (
     <div className="mt-14 lg:w-[50%] lg:mt-[40%]">
       <img className="m-auto" src={imgComplate} />
-      <h1 className="text-center mt-9">TKANK YOU!</h1>
+      <h1 className="text-center mt-9 text-3xl tracking-widest">THANK YOU!</h1>
       <p className="text-center mt-3">We’ve added your card details</p>
       <button
         className="btnCont w-full p-2 mt-6 rounded-lg text-white"
