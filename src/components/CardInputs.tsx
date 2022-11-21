@@ -30,7 +30,6 @@ const CardInputs = ({
       setNameError("Can’t be blank");
     } else {
       setNameError("");
-      //console.log(borderColor)
     }
     if (String(inputMm).length !== 2) {
       setMmError("Can’t be blank");

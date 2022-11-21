@@ -1,5 +1,5 @@
 export interface CardInputsProps {
-  setCvc: (value: number) => void;
+  setCvc: (value: number| string) => void;
   setCardNumber: (value: string | number) => void;
   setName: (value: string) => void;
   setDay: (value: number) => void;

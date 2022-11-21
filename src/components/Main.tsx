@@ -7,13 +7,13 @@ import ThankYou from "./ThankYou";
 import { useState } from "react";
 
 const Main = () => {
-  const [cvc, setCvc] = useState(0);
+  const [cvc, setCvc] = useState<number | string>("000");
   const [cardNumber, setCardNumber] = useState<number | string>(
     "0000 0000 0000 0000"
   );
   const [name, setName] = useState("JANE APPLESEED");
-  const [day, setDay] = useState(0);
-  const [month, setMonth] = useState(0);
+  const [day, setDay] = useState<number | string>("00");
+  const [month, setMonth] = useState<number | string>("00");
   const [ifFormIscorrect, setIfFormIscorrect] = useState(true);
   return (
     <div className="lg:flex  ">
